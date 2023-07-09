@@ -20,12 +20,12 @@ const TrafficLight = () => {
                         className={`rojo ${colorActivo === "rojo" ? "brillo" : ""}`}>
                     </div>
                     <div 
-                        onClick={() => setColorActivo("verde")} 
-                        className={`verde ${colorActivo === "verde" ? "brillo" : ""}`}>
-                    </div>
-                    <div 
                         onClick={() => setColorActivo("amarillo")} 
                         className={`amarillo ${colorActivo === "amarillo" ? "brillo" : ""}`}>
+                    </div>
+                    <div 
+                        onClick={() => setColorActivo("verde")} 
+                        className={`verde ${colorActivo === "verde" ? "brillo" : ""}`}>
                     </div>
                 </div>
                 <div className="button">
